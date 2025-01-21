@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+Quicksand Font Styles
+<weight>: Use a value from 300 to 700 
+*/
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand-500 {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.quicksand-600 {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.quicksand-bold {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*
+Raleway Font Styles
+<weight>: Use a value from 100 to 900
+*/
+.raleway-normal {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-500 {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Shared Styles */
+:root {
+    --btn-bg-primary: #FEA301;
+    --btn-bg-secondary: #111111;
+    --btn-txt-primary: #FFFFFF;
+
+    --heading-txt-primary: #111111;
+    --heading-txt-secondary: #FEA301;
+    --heading-txt-tertiary: #01ACFD;
+    --heading-txt-quaternary: #FFFFFF;
+
+    --paragraph-txt-primary: #111111;
+    --paragraph-txt-secondary: #808080;
+    --paragraph-txt-tertiary: #666666;
+    --paragraph-txt-quaternary: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary {
+    padding: 9.43px 57.052px;
+    border: none;
+    border-radius: 11.316px;
+    background-color: var(--btn-bg-primary);
+    color: var(--btn-txt-primary);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.btn-secondary {
+    padding: 9.43px 44.321px;
+    border: none;
+    border-radius: 11.316px;
+    background-color: var(--btn-bg-secondary);
+    color: var(--btn-txt-primary);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.btn-tertiary {
+    border: none;
+    background: none;
+    font-family: Quicksand;
+    font-size: 0.943rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875;
+}
+
+h1, h2, h3, h4 {
+    color: var(--heading-txt-primary);
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 2.875rem;
+}
+
