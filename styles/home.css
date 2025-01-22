@@ -205,7 +205,6 @@ nav .menu img {
         max-width: 100%;
         padding: 12px 16px;
         border: 0.5px solid #FEA301;
-        margin-bottom: 28px;
     }
 
     nav .brand .logo {
@@ -234,12 +233,18 @@ nav .menu img {
         gap: 40px;
         max-width: calc(100% - 32px);
         padding: 12px 0;
-        margin-bottom: 28px;
     }
     
     nav .brand h2 {
         display: none;
     }
+}
+
+/* Marquee Styles */
+marquee {
+    padding: 16px 0;
+    color: red;
+    font-size: 1.25rem;
 }
 
 /* Banner Styles */
