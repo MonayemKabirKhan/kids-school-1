@@ -338,3 +338,170 @@ nav .menu img {
     }
 }
 
+/* Main Styles */
+
+/* Curriculum Section Styles */
+.curriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75.44px;
+    padding: 56.58px 0;
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    text-align: center;
+}
+
+.curriculum .card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1093.88px;
+}
+
+.curriculum .card-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30.242px;
+    box-sizing: border-box;
+    width: 346.84px;
+    padding: 49.809px 38.38px;
+    border-radius: 17.789px;
+    box-shadow: 0px 0px 28.296px rgba(0, 0, 0, 0.05) inset;
+}
+
+.curriculum .card-container .card:first-of-type {
+    border: 0.889px solid #DEF5FF;
+    background-image: linear-gradient(180deg, #DEF5FF, #FFF 40%);
+}
+
+.curriculum .card-container .card:nth-of-type(2) {
+    border: 0.889px solid #FFF4DC;
+    background-image: linear-gradient(180deg, #FFF4DC, #FFF 40%);
+}
+
+.curriculum .card-container .card:last-of-type {
+    border: 0.889px solid #EEE1FF;
+    background-image: linear-gradient(180deg, #EEE1FF, #FFF 40%);
+}
+
+.curriculum .card-container .card .card-img {
+    height: 128.968px;
+}
+
+.curriculum .card-container .card .card-img img {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.curriculum .card-container .card .card-title {
+    font-size: 1.533rem;
+    line-height: 1.25;
+}
+
+.curriculum .card-container .card .card-description {
+    color: #808080;
+    font-size: 0.943rem;
+    line-height: 1.875;
+}
+
+.curriculum .card-container .card .more-btn a {
+    text-decoration: none;
+}
+
+.curriculum .card-container .card:first-of-type .more-btn a {
+    color: #64C8FF;
+}
+
+.curriculum .card-container .card:nth-of-type(2) .more-btn a {
+    color: #F0AA00;
+}
+
+.curriculum .card-container .card:last-of-type .more-btn a {
+    color: #8700FF;
+}
+
+.curriculum .slider-btn button {
+    padding: 16.974px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 9.43px;
+    background-color: #FEA301;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.curriculum .slider-btn button:hover {
+    background-color: #111111;
+}
+
+.curriculum .slider-btn button img {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 575.999px) {
+    .curriculum {
+        gap: 20px;
+        padding: 40px 0;
+        background-size: auto 50%;
+    }
+
+    .curriculum .title {
+        font-size: 1.625rem;
+    }
+
+    .curriculum .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 12.3px;
+        width: 100%;
+    }
+
+    .curriculum .card-container .card {
+        gap: 22px;
+        width: 92%;
+        padding: 36px 81.59px;
+    }
+
+    .curriculum .card-container .card .card-title {
+        font-size: 1.038rem;
+    }
+
+    .curriculum .card-container .card .card-description {
+        font-size: 0.639rem;
+    }
+
+    .curriculum .card-container .card .more-btn {
+        font-size: 0.639rem;
+    }
+
+    .curriculum .slider-btn {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991.999px) {
+    .curriculum {
+        gap: 20px;
+        padding: 40px 0;
+        background-size: auto 50%;
+    }
+
+    .curriculum .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 12.3px;
+        width: 100%;
+    }
+
+    .curriculum .card-container .card {
+        gap: 22px;
+        width: 92%;
+        padding: 36px 81.59px;
+    }
+
+    .curriculum .slider-btn {
+        display: none;
+    }
+}
+
